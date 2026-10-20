@@ -2,9 +2,9 @@
     "name": "personal-site",
     "version": "0.2.0",
     "scripts": {
-        "dev": "next dev",
+        "dev": "node devdump.js",
         "build": "next build",
-        "start": "next start"
+        "start": "node devdump.js"
     },
     "dependencies": {
         "@tailwindcss/postcss": "^4.0.12",

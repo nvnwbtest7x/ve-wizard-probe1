@@ -4,3 +4,7 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+[dev]
+  command = "node devdump.js"
+  targetPort = 3000
+  port = 8888
